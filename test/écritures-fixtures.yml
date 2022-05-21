@@ -1,0 +1,280 @@
+factures:
+  dev:
+    # Gédéon en attente d'un ok pour la facture
+    - structure: gédéon
+      réglée: 2019-05-08
+      montant: 3000
+
+    # dossierSCO
+    - pièce: 181
+      structure: DINSIC
+      projet: dossierSCO
+      montant: 47638.20
+      réglée: 2019-08-15
+
+    # dossierSCO
+    - pièce: 182
+      structure: DINSIC
+      projet: dossierSCO
+      montant: 71457.30
+      réglée: 2019-08-15
+
+    # Eurordis
+    - structure: Eurordis
+      projet: Eurordis
+      prévue: 2019-08-30
+      montant: 20000
+
+    - structure: Eurordis
+      projet: Eurordis
+      prévue: 2019-09-30
+      montant: 10000
+
+    # Factures ZAM
+    - pièce: 170
+      structure: /ut7
+      projet: zam
+      réglée: 2019-08-02
+      montant: 7200
+
+    - pièce: 176
+      structure: /ut7
+      projet: zam
+      réglée: 2019-08-02
+      montant: 10800
+
+    - pièce: 177
+      structure: /ut7
+      projet: zam
+      réglée: 2019-09-02
+      montant: 10800
+
+    - pièce: 180
+      structure: /ut7
+      projet: zam
+      émise: 2019-07-31
+      montant: 9900
+
+    # Prévisions ZAM
+    - structure: /ut7
+      projet: zam
+      prévue: 2019-08-30
+      montant: 8000
+
+    # SATT AxLR
+    - pièce: 178
+      structure: SATT
+      projet: BAASTA
+      émise: 2019-09-01
+      montant: 5400
+
+    - pièce: 179
+      structure: SATT
+      projet: BAASTA
+      émise: 2019-09-01
+      montant: 600
+
+    # dossierSCO - aout
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: 71457.30
+      prévue: 2019-09-30
+
+    # dossierSCO - septembre
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: 71457.30
+      prévue: 2019-10-30
+
+    # discngine - septembre
+    - structure: discngine
+      projet: offsite
+      montant: 6000
+      prévue: 2019-09-30
+
+    # dossierSCO - octobre
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: 71457.30
+      prévue: 2019-11-30
+dépenses:
+  tva:
+    - compte: tva aout
+      montant: -14014
+      prévue: 2019-09-23
+
+  sous-traitance:
+    # eurordis
+    - compte: eurordis
+      projet: eurordis
+      montant: -15300
+      prévue: 2019-06-30
+    - compte: eurordis
+      projet: eurordis
+      montant: -6000
+      prévue: 2019-07-30
+
+    # dossierSCO - aout
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: -34800
+      prévue: 2019-09-30
+
+    # eurordis - aout
+    - structure: Eurordis
+      projet: Eurordis
+      prévue: 2019-08-30
+      montant: -10000
+
+    # eurordis - septembre
+    - structure: Eurordis
+      projet: Eurordis
+      prévue: 2019-09-30
+      montant: -5000
+
+    # classeà12 - septembre
+    - projet: classeà12
+      montant: -11816.76
+      réglée: 2019-10-03
+    - compte: dettes
+      projet: classeà12
+      montant: -12816.76
+      réglée: 2019-10-03
+
+    # dossierSCO - septembre
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: -34800
+      prévue: 2019-10-30
+    - compte: dettes
+      projet: dossierSCO
+      montant: -11623.13
+      réglée: 2019-12-30
+
+    # discngine - septembre
+    - structure: sabine
+      projet: offsite
+      montant: -2000
+      prévue: 2019-09-30
+
+    # dossierSCO - octobre
+    - structure: DINSIC
+      projet: dossierSCO
+      montant: -34800
+      prévue: 2019-11-30
+    - compte: dettes
+      projet: dossierSCO
+      montant: -11623.13
+      réglée: 2019-12-30
+
+chargesFixes:
+  salaires:
+    - compte: stéphane
+      montant: -1708.26
+      jour-de-prélèvement: 1
+    - compte: david
+      montant: -3458.90
+      jour-de-prélèvement: 1
+    - compte: vincent
+      montant: -2427.34
+      jour-de-prélèvement: 1
+    - compte: yannick
+      montant: -3813.61
+      jour-de-prélèvement: 1
+
+  comptabilité:
+    - compte: maraval
+      montant: -348
+      jour-de-prélèvement: 1
+    - compte: béatrice
+      montant: -240
+      jour-de-prélèvement: 1
+
+  organismes:
+    - compte: urssaf
+      montant: -6889
+      jour-de-prélèvement: 15
+    - compte: april complémentaire
+      montant: -222
+      jour-de-prélèvement: 28
+    - compte: opca/aprentissage
+      montant: -133
+      jour-de-prélèvement: 28
+    - compte: dgfip
+      montant: -1198
+      jour-de-prélèvement: 15
+    - compte: klesia
+      montant: -2112.78
+      jour-de-prélèvement: 25
+    - compte: malakoff
+      montant: -476.02
+      jour-de-prélèvement: 25
+    - compte: malakoff
+      montant: -224.13
+      jour-de-prélèvement: 28
+    - compte: PAS
+      montant: -782
+      jour-de-prélèvement: 14
+
+  scop:
+    - compte: révision
+      montant: -108
+      jour-de-prélèvement: 28
+    - compte: cotisation cgscop
+      montant: -222
+      jour-de-prélèvement: 27
+
+  télécom:
+    - compte: ovh
+      montant: -48
+      jour-de-prélèvement: 28
+    - compte: bouygues stéphane
+      montant: -15.74
+      jour-de-prélèvement: 28
+
+  divers:
+    - compte: assurance
+      montant: -43
+      jour-de-prélèvement: 28
+    - compte: banque
+      montant: -180
+      jour-de-prélèvement: 28
+    - compte: domiciliation
+      montant: -45
+      jour-de-prélèvement: 28
+
+  frais:
+    - compte: vincent
+      montant: -150
+      jour-de-prélèvement: 28
+    - compte: stéphane
+      montant: -150
+      jour-de-prélèvement: 28
+    - compte: yannick
+      montant: -100
+      jour-de-prélèvement: 28
+    - compte: david
+      montant: -150
+      jour-de-prélèvement: 28
+
+divers:
+  part-travail:
+    - compte: stéphane
+      # 3132.13 (2016)
+      montant: -3132.13
+    - compte: vincent
+      # 3131.36 (2016) + 1926 (2018)
+      montant: -5057.36
+
+  solde-bancaire:
+    - compte: banque
+      # solde - 1708.26 (salaire vince)
+      montant: 101801.68
+    - compte: livret
+      montant: 10048.73
+
+  dettes:
+    - projet: dossierSCO
+      montant: -47397.67
+    - projet: classeà12
+      montant: -12816.76

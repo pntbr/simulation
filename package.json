@@ -1,0 +1,32 @@
+{
+    "name": "simulation",
+    "version": "1.0.0",
+    "description": "un outil simple pour voir où scopyleft se dirige en terme de trésorerie",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha -r esm",
+        "unit": "./node_modules/mocha/bin/mocha -r esm ./test/écritures.test.js ./test/dates.test.js ./test/écritures-prod.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/scopyleft/simulation.git"
+    },
+    "keywords": [],
+    "author": "pntbr@pm.me",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/scopyleft/simulation/issues"
+    },
+    "homepage": "https://github.com/scopyleft/simulation#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "esm": "^3.2.16",
+        "http-server": "^14.1.0",
+        "mocha": "^10.0.0"
+    },
+    "dependencies": {
+        "bouture": "github:davidbruant/bouture",
+        "chart.js": "^2.9.3",
+        "dayjs": "^1.9.4",
+        "js-yaml": "^3.13.1"
+    }
+}

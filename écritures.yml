@@ -1,0 +1,489 @@
+factures:
+  dev:
+    # Factures émises
+    # - pièce: numéro de facture
+      # structure: nom de la structure
+      # projet: nom du projet
+      # émise: c'est la date à laquelle on pense être payé (on est tjrs dans le turfu)
+      # montant: TTC
+    - pièce: 482
+      structure: INCA
+      projet: lab agora
+      émise: 2022-06-10
+      montant: 6420
+    - pièce: 481
+      structure: dinum
+      projet: devoir fait
+      émise: 2022-06-10
+      montant: 5760
+    - pièce: 480
+      structure: ademe
+      projet: datagir
+      émise: 2022-06-10
+      montant: 211680
+    - pièce: 479
+      structure: DGE-SG9
+      projet: signaux faible
+      émise: 2022-06-10
+      montant: 39000
+    - pièce: 475
+      structure: MAAP
+      projet: ma-cantine
+      émise: 2022-06-10
+      montant: 77553
+    - pièce: 474
+      structure: /ut7
+      projet: MesConseilsCovid
+      émise: 2022-06-10
+      montant: 2700
+    - pièce: 473
+      structure: SNUM
+      projet: apilos
+      émise: 2022-06-10
+      montant: 42000
+    - pièce: 472
+      structure: Malt
+      projet: aide territoire
+      émise: 2022-06-25
+      montant: 14520
+    - pièce: 461
+      structure: DC-DIRISI
+      projet: anais
+      émise: 2022-06-30
+      montant: 99936
+    - pièce: 456
+      structure: MTES
+      projet: histologe
+      émise: 2022-06-30
+      montant: 6600
+    - pièce: 452
+      structure: ANCT
+      projet: CoMobi
+      émise: 2022-06-30
+      montant: 13933
+    - pièce: 439
+      structure: Atlas
+      projet: Violaine
+      émise: 2022-06-25
+      montant: 2304 
+    - pièce: 438
+      structure: Atlas
+      projet: Rebecca
+      émise: 2022-06-30
+      montant: 1656 
+    - pièce: 437
+      structure: Atlas
+      projet: Rebecca
+      émise: 2022-06-30
+      montant: 5530
+    - pièce: 435
+      structure: Eurordis
+      projet: base contact
+      émise: 2022-06-30
+      montant: 22425
+    - pièce: 417
+      structure: Eurordis
+      projet: Base contact
+      émise: 2022-06-30
+      montant: 20280
+  
+  # Factures prévues
+    #- structure: AVH
+      # projet: Studio Paon
+      # prévue: date où sera payée la facture (on est dans le turfu)
+      # montant: le montant TTC
+    ## David: MesConseilsCovid
+
+    # Startup de Jul
+
+    # Signaux Faible
+    - structure: DGE
+      projet: signaux-faibles
+      prévue: 2022-07-15
+      montant: 40000
+
+    # cartobio
+    # Juin
+    - structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-06-15
+      montant: 21000
+
+    # Fanny et Elie
+    ## RDV solidarité
+
+    # Juin
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-07-15
+      montant: 55000
+    # Juillet
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-08-15
+      montant: 55000
+    # Aout
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-09-15
+      montant: 55000
+    # Septembre
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-10-15
+      montant: 55000
+    # Octobre
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-11-15
+      montant: 55000
+    # Novembre
+    - structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-12-15
+      montant: 55000
+
+    # Startup de Stéphane
+
+    # ma-cantine
+    # juin
+    - structure: ministère agriculture
+      projet: ma-cantine
+      prévue: 2022-07-20
+      montant: 100000
+    # juillet
+    - structure: ministère agriculture
+      projet: ma-cantine
+      prévue: 2022-08-15
+      montant: 100000
+
+    # startup Vincent
+
+dépenses:
+  # Factures prévues en sous-traitance
+  sous-traitance:
+    # Histologe
+    # mai
+    - compte: sous-traitants
+      structure: MTES
+      projet: histologe
+      prévue: 2022-06-15
+      montant: -33000
+    
+    # Cartobio 
+    # pour tous le projet
+    # Mai
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-06-16
+      montant: -12000
+    # Juin
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-07-16
+      montant: -12000
+
+    # Mai
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-06-16
+      montant: -12000
+    # Juin
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-07-16
+      montant: -12000
+
+    # Frais Jul
+    # Mai
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-06-16
+      montant: -400
+    # Juin
+    - compte: sous-traitants
+      structure: L'agence Bio
+      projet: cartobio
+      prévue: 2022-07-16
+      montant: -100
+
+    # Signaux-Faibles 
+    # pour tous le projet
+    # Mai
+    - compte: sous-traitants
+      structure: DGE
+      projet: signaux-faibles
+      prévue: 2022-06-16
+      montant: -31800
+    # Juin
+    - compte: sous-traitants
+      structure: DGE
+      projet: signaux-faibles
+      prévue: 2022-07-16
+      montant: -31800
+  
+    # CoMobi
+
+    # Datagir
+    # mai
+    - compte: sous-traitants
+      structure: datagir
+      projet: datagir
+      prévue: 2022-06-20
+      montant: -50000
+    # juin
+    - compte: sous-traitants
+      structure: datagir
+      projet: datagir
+      prévue: 2022-07-20
+      montant: -50000
+    # juillet
+    - compte: sous-traitants
+      structure: datagir
+      projet: datagir
+      prévue: 2022-08-20
+      montant: -50000
+
+    # Ma Cantine
+
+    # Apilos
+      
+    # startup Vincent
+   
+    # mai
+    - compte: sous-traitants
+      structure: ANCT
+      projet: incubateur territoire
+      prévue: 2022-06-15
+      montant: -29000
+
+    # mai
+    - compte: sous-traitants
+      structure: ANCT
+      projet: mon suivi social
+      prévue: 2022-06-25
+      montant: -8100
+
+    # Fanny et Elie
+    ## RDV solidarité
+
+    # Mai
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-06-15
+      montant: -54000
+    # Juin
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-07-15
+      montant: -54000
+    # Juillet
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-08-15
+      montant: -54000
+    # Aout
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-09-15
+      montant: -54000
+    # Septembre
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-10-15
+      montant: -54000
+    # Octobre
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-11-15
+      montant: -54000
+    # Novembre
+    - compte: sous-traitants
+      structure: ANCT
+      projet: RDV solidarité
+      prévue: 2022-12-15
+      montant: -54000
+
+  capital:
+    - compte: stéphane
+      montant: -2503
+      prévue: 2022-06-28
+    - compte: vincent
+      montant: -2503
+      prévue: 2022-06-28
+    - compte: david
+      montant: -2503
+      prévue: 2022-06-28
+
+  part-travail:
+    - compte: juliette
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: audrey
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: stéphane
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: vincent
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: david
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: sarah
+      montant: -11213
+      prévue: 2022-06-05
+    - compte: yannick
+      montant: -14152
+      prévue: 2022-12-28
+    - compte: violaine
+      montant: -6072
+      prévue: 2022-12-28
+    - compte: violaine
+      montant: -3000
+      prévue: 2022-06-10
+    # dernier salaire + prime  
+    - compte: yannick
+      montant: -8960
+      prévue: 2022-12-05
+
+chargesFixes:
+  salaires:
+    - compte: stéphane
+      montant: -2013
+      jour-de-prélèvement: 1
+    - compte: vincent
+      montant: -2630
+      jour-de-prélèvement: 1
+    - compte: david
+      montant: -3573
+      jour-de-prélèvement: 1
+    - compte: sarah
+      montant: -2886
+      jour-de-prélèvement: 1
+    - compte: juliette
+      montant: -2000
+      jour-de-prélèvement: 1
+    - compte: audrey
+      montant: -2000
+      jour-de-prélèvement: 1
+    - compte: violaine
+      montant: -1807
+      jour-de-prélèvement: 1
+    - compte: emma
+      montant: -1652
+      jour-de-prélèvement: 1
+    
+  comptabilité:
+    - compte: audies
+      montant: -317
+      jour-de-prélèvement: 1
+    - compte: béatrice
+      montant: -200
+      jour-de-prélèvement: 1
+
+  organismes:
+    # on va mettre tout ça à jour avec une itw avec Béatrice semaine du 7 janvier
+    - compte: urssaf
+      montant: -12500
+      jour-de-prélèvement: 17
+    - compte: april complémentaire
+      montant: -590
+      jour-de-prélèvement: 28
+    - compte: klesia retraite
+      montant: -3642
+      jour-de-prélèvement: 17
+    - compte: malakoff prevoyance retraite
+      montant: -1240
+      jour-de-prélèvement: 25
+    - compte: Prélèvement À la Source
+      montant: -1103
+      jour-de-prélèvement: 17
+
+  scop:
+    - compte: cotisation cgscop
+      montant: -150
+      jour-de-prélèvement: 27
+
+  télécom:
+    - compte: ovh
+      montant: -48
+      jour-de-prélèvement: 27
+
+  divers:
+    - compte: assurance
+      # -333,60 € en 2021
+      montant: -29
+      jour-de-prélèvement: 28
+    - compte: banque (abonnement)
+      montant: -16
+      jour-de-prélèvement: 28
+    - compte: banque
+      montant: -180
+      jour-de-prélèvement: 28
+    - compte: commission
+      # 1000 pour l'année 2021 (soit 0,1%)
+      montant: 83
+      jour-de-prélèvement: 28
+    - compte: domiciliation
+      # domiciliation de l'entreprise (boite postale)
+      montant: -50
+      jour-de-prélèvement: 28
+
+  frais:
+    - compte: tous
+      montant: -1500
+      jour-de-prélèvement: 28
+
+divers:
+  part-travail:
+    - compte: stéphane
+      # 3132.13 (2016)
+      montant: -3132
+    - compte: vincent
+      # 3131.36 (2016) + 1926 (2018)
+      montant: -5057
+
+  solde-bancaire:
+    - compte: banque
+      montant: 300632
+    - compte: livret
+      montant: 10115
+
+  dettes:
+    # Ici on note les dettes que l'on a
+    # Genre on a facturé en avance à un ministère
+    - projet: brutdethé
+      montant: -60
+    - projet: RadarTech
+      montant: -8500
+    - projet: SNDV-Maritime
+      montant: -600
+    - projet: Recosante # reste du dernier marché
+      montant: -1000
+
+  avances:
+    - projet: datagir
+      montant: -42680
+    - projet: ma-cantine
+      montant: -59976
+    - projet: cartobio
+      montant: -8640
+    - projet: signaux faible
+      montant: -39960
+    - projet: territoire store
+      montant: -95760
+    - projet: comobi
+      montant: -4320
