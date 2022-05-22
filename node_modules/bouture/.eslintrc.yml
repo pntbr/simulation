@@ -1,0 +1,9 @@
+extends: standard
+
+overrides:
+  files: "*.test.js"
+  rules:
+    no-unused-expressions: off
+  env:
+    mocha: true
+    browser: true
